@@ -2,12 +2,12 @@ import React from "react";
 
 const ListSelect = () => {
   return (
-    <div className="grid grid-cols-2 gap-2 mt-5">
+    <div className="lg:grid lg:grid-cols-2 lg:gap-2 mt-5">
       {/********************************* List Select Nom Produit */}
-      <div className="pr-12">
-        <p className="text-sm font-medium ml-4 text-black">Nom du Produit</p>
-        <div className="flex justify-center ">
-          <div className="mb-3 xl:w-80">
+      <div className="pr-12 ml-7 md:ml-7">
+        <p className="text-sm font-medium lg:ml-4 text-black">Nom du Produit</p>
+        <div className="flex lg:justify-center ">
+          <div className="lg:mb-3 xl:w-80">
             <select
               className="form-select  block w-full px-3 py-1.5 text-base font-normal  text-gray-700 bg-light-gray bg-clip-padding bg-no-repeat  border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-light-gray focus:outline-none"
               aria-label="Thales air Mini"
@@ -21,9 +21,9 @@ const ListSelect = () => {
         </div>
       </div>
       {/********************************* List Select Type de Reclamation */}
-      <div className="pl-20">
+      <div className="lg:pl-20 ml-7 md:ml-7">
         <p className="text-sm font-medium text-black">Type de Reclamation</p>
-        <div className="flex justify-center">
+        <div className="flex lg:justify-center">
           <div className="mb-3 xl:w-80">
             <select
               className="form-select block w-full px-3 py-1.5 text-base font-normal  text-gray-700 bg-light-gray bg-clip-padding bg-no-repeat  border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-light-gray focus:outline-none"
@@ -38,9 +38,9 @@ const ListSelect = () => {
         </div>
       </div>
       {/********************************* List Select Location */}
-      <div className="pr-12">
-        <p className="text-sm font-medium ml-4 text-black">Location</p>
-        <div className="flex justify-center">
+      <div className="pr-12 ml-7 md:ml-7">
+        <p className="text-sm font-medium lg:ml-4 text-black">Location</p>
+        <div className="flex lg:justify-center">
           <div className="mb-3 xl:w-80">
             <select
               className="form-select block w-full px-3 py-1.5 text-base font-normal  text-gray-700 bg-light-gray bg-clip-padding bg-no-repeat  border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-light-gray focus:outline-none"
@@ -55,7 +55,7 @@ const ListSelect = () => {
         </div>
       </div>
       {/********************************* List Select Code Postal */}
-      <div className="pl-20">
+      <div className="lg:pl-20 ml-7 md:ml-7">
         <p className="text-sm font-medium text-black">Code Postal</p>
         <div className="flex">
           <div className="mb-3 xl:w-18 ">

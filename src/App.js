@@ -6,10 +6,10 @@ import SideBar from "./components/SideBar";
 
 function App() {
   return (
-    <div className="bg-light-gray h-200">
+    <div className="bg-light-gray lg:h-200 h-screen md:h-screen">
       <SideBar />
       <Header />
-      <div className="flex">
+      <div className="lg:flex">
         <Form />
         <Cards />
       </div>

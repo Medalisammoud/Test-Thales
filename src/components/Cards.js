@@ -5,8 +5,8 @@ import produit1 from "../assets/produit1.png";
 const Cards = () => {
   return (
     <div className="mt-6 ml-6 flex flex-col justify-between">
-      <div className="flex flex-col">
-        <div className="bg-white h-64 w-80 rounded-lg shadow-lg mb-6">
+      <div className="flex md:flex flex-row md:flex-col">
+        <div className="bg-white lg:h-64 lg:w-80 rounded-lg shadow-lg mb-6 ">
           <img
             className="rounded-xl h-36 w-80 p-2"
             src={produit}
@@ -21,13 +21,13 @@ const Cards = () => {
             </p>
           </div>
           <div className="flex justify-center -mt-10">
-            <buton className="bg-blue-primary text-center hover:bg-blue-700 text-white font-bold w-32 mt-12 mb-8 py-2 px-2 rounded">
+            <buton className="bg-blue-primary text-center hover:bg-blue-700 text-white font-bold w-11/12 lg:w-32 mt-12 mb-4 pl:mb-8 py-2 px-2 rounded">
               Voir Plus
             </buton>
           </div>
         </div>
 
-        <div className="bg-white h-64 w-80 rounded-lg shadow-lg">
+        <div className="bg-white lg:h-64 lg:w-80 rounded-lg shadow-lg mb-6">
           <img
             className="rounded-xl h-36 w-80 p-2"
             src={produit}
@@ -42,7 +42,7 @@ const Cards = () => {
             </p>
           </div>
           <div className="flex justify-center -mt-10">
-            <buton className="bg-blue-primary text-center hover:bg-blue-700 text-white font-bold w-32 mt-12 mb-8 py-2 px-2 rounded">
+            <buton className="bg-blue-primary text-center hover:bg-blue-700 text-white font-bold w-11/12 lg:w-32 mt-12 lg:mb-8 py-2 px-2 rounded">
               Voir Plus
             </buton>
           </div>

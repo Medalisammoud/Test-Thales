@@ -14,7 +14,7 @@ import open from "../assets/open.png";
 
 const SideBar = () => {
   return (
-    <div className="bg-light-blue w-28 absolute h-200 flex flex-col items-center justify-around">
+    <div className="bg-light-blue lg:w-28 absolute lg:h-200 flex flex-col items-center justify-around invisible sm:visible ">
       <div className="bg-white h-80 w-12 flex flex-col items-center justify-center mt-12 rounded-md">
         <img src={menu} alt="menu" className="w-4  mb-10" />
         <img src={fire} alt="fire" className="w-4  mb-10 " />
