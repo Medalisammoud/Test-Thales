@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="grid grid-cols-4 gap-4 h-20 ml-36">
       {/*********** Logo And Email Administrateur */}
-      <div className="p-8 mr-20 max-w-sm mx-auto flex items-center space-x-4">
+      <div className="p-4 mr-20 max-w-sm mx-auto flex items-center space-x-4">
         <div className="shrink-0">
           <img
             className="h-16 w-16 shadow-lg rounded-xl"
@@ -28,7 +28,7 @@ const Header = () => {
       </div>
       {/********************* Bar Search */}
       <div>
-        <label className="relative block ml-20 mt-12 w-80">
+        <label className="relative block ml-20 mt-8 w-80">
           <span className="absolute inset-y-0 left-0 flex items-center pl-2">
             <img
               className="h-5 w-5 "
@@ -46,7 +46,7 @@ const Header = () => {
         </label>
       </div>
       {/***************** div icons messenger */}
-      <div className="flex flex-row mt-12 ml-44">
+      <div className="flex flex-row mt-8 ml-44">
         <div className="h-10 w-12 flex justify-center items-center shadow-lg bg-white rounded-xl ml-10">
           <img src={notif} className="h-6 w-6" alt="Notification" />
         </div>
@@ -54,7 +54,7 @@ const Header = () => {
           <img src={message} className="h-6 w-6 " alt="Message" />
         </div>
       </div>
-      <div className="h-10 w-10 rounded-xl bg-dark-blue mt-12 shadow-lg flex justify-center items-center ml-36">
+      <div className="h-10 w-10 rounded-xl bg-dark-blue mt-8 shadow-lg flex justify-center items-center ml-36">
         <p className="text-slate-50 text-lg font-serif">i</p>
       </div>
     </div>
